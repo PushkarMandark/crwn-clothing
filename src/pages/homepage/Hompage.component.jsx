@@ -3,7 +3,7 @@ import DirectoryMenu from "../../components/directoryMenuCompoent/DirectoryMenu.
 
 import "./homepage.styles.scss";
 
-const HomePage = () => (
+const HomePage = ({ history }) => (
   <div className="homepage">
     <h1>Welcome to my Homepage</h1>
     <DirectoryMenu />
